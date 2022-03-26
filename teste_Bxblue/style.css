@@ -1,0 +1,70 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+    --branco: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: rgb(167, 1, 1);
+    font-family: 'Press Start 2P', cursive;
+}
+
+#header{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+	background-color: blue;
+}
+
+img{
+	width: 20%;
+	background-color: blue;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#botao-troca{
+    font-size: 300%;
+    padding: 5%;
+    border-radius: 5% 5% 10% 10%;
+	background-color:white;
+}
+#botao-troca:hover{
+    cursor: pointer;
+}
+
+.troca{
+    font-size: 100px;
+}
+
+.pokemon-lista{
+    width: auto;
+}
+
+.pokemon{
+    font-size: 50%;
+}
+
+.search{
+	font-size: 40%;
+	background-color: white;
+    padding: 1%;
+}
+
+.confirm{
+	font-size: 30%;
+	background-color: white;
+	cursor: pointer;
+    padding: 1%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PokeTrade</title>
+        <link rel="stylesheet" href="style.css"> 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+		</style>
+    </head>
+    <body> 
+		<header>
+			<div id="header">
+				<img src="PokeTrade.png"></img>
+			</div>
+		</header>
+
+        <main>
+            <div class="troca">
+                <center><p id="lado1">0</p></center>
+                <div class="pokemon-lista">
+                    <form id="lista1">
+                        <div class="pokemon"><input class="search" id="i1" type="text" placeholder="Escolha seu Pokémon"> </input></div>
+                        <div class="pokemon"><input class="search" id="i2" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                        <div class="pokemon"><input class="search" id="i3" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                        <div class="pokemon"><input class="search" id="i4" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                        <div class="pokemon"><input class="search" id="i5" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                        <div class="pokemon"><input class="search" id="i6" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                    </form>
+                    <center><button class="confirm" id="b1">confirmar</button></center>
+                </div>
+            </div>
+
+            <div>
+                <button id="botao-troca">Trocar</button>
+            </div>
+
+            <div class="troca">
+                <center><p id="lado2">0</p></center>
+                <div class="pokemon-lista">
+                    <div class="pokemon"><input class="search" id="ii1" type="text"  placeholder="Escolha seu Pokémon"></input></input></div>
+                    <div class="pokemon"><input class="search" id="ii2" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                    <div class="pokemon"><input class="search" id="ii3" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                    <div class="pokemon"><input class="search" id="ii4" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                    <div class="pokemon"><input class="search" id="ii5" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                    <div class="pokemon"><input class="search" id="ii6" type="text"  placeholder="Escolha seu Pokémon"> </input></div>
+                    <center><button class="confirm" id="b2" onclick="confirmar()" >confirmar</button></center>
+                </div>
+            </div>
+			
+        </main>
+		
+		
+		
+        <script src="script.js"></script>
+        
+    </body>
+</html>
